@@ -1,1 +1,66 @@
- 
+ HELLO WORLD
+
+Pour éxécuter plusieur façons :
+- soit dans vs code je clique sur la flèche en haut à droite
+- soit dans le terminal je fait python3 monFichier.py
+
+Pour print : print("slt")
+
+la norme est de 4 espace pour l'indentation
+python utilise pas d'accolades ou autre
+
+___________________________
+
+VARIABLES AND TYPES
+
+dans python tous est orienté objet, les variables et types n'ont pas besoin d'être déclaré pour être utilisé
+chaque variables est un objet
+
+Number
+il y a plusieur genres de nombres
+- integers pour les nombres entiers
+- floating point nuber pour les nombres décimaux
+- complex number (a voir dans un niveau plus avancé)
+
+String
+sont définie aussi bien avec des simple ou double quote "" ''
+avec des double on peut juste mettre des apostrophes
+https://docs.python.org/3/tutorial/introduction.html#strings : pour de la précision
+
+Les opérateurs simple peuvent être éxecuté avec des number et strings mais pas entre eux
+
+On peut assigner plusieur variables sur une seule ligne
+
+On ne peut pas avoir des mixing operator entre les number et strings
+
+___________________________
+
+LISTS
+
+c'est très similaire au array
+ça contien tout types de variables et autant que je veux
+ça peut aussi être très simplement itéré
+essayer d'avoir un index qui existe pas ça fait une erreur
+a une méthode append qui ajoute un seul élément à la fois
+
+___________________________
+
+BASIC OPERATORS
+
+Arithmetic Operators
+on a + - * / avec les number 
+python suit l'ordre classique 1er * et / ensuite + et - tous ça de gauche à droite
+il y a aussi % modulo qui renvois le reste entier d'une division
+** exponnentiel c'est enu relation de puissance
+
+Operators with strings
+on peut fair de la concaténation de strings
+on peut multiplier les strings
+
+Operators with Lists
+on peut joindre des lists ensemble
+on peut les multiplier
+
+
+
+
