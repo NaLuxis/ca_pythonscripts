@@ -61,6 +61,46 @@ Operators with Lists
 on peut joindre des lists ensemble
 on peut les multiplier
 
+___________________________
 
+SRTING FORMATTING
 
+python utilise le style C de formatage de strings pour en créer de nouvelle 
+% est utilisé pour ajouter des argument specifiers comme %s pour les strings ou %d pour les integers
+ça sert à ajouter une variable dans une string
+si on en met plusieurs il faut les mettre dans un tuple entre paranthèses
+un objets qui n'est pas une string peut aussi passer par %s
+
+Les principaux a connaître :
+%s - String (or any object with a string representation, like numbers)
+
+%d - Integers
+
+%f - Floating point numbers
+
+%.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
+
+%x/%X - Integers in hex representation (lowercase/uppercase)
+
+___________________________
+
+BASIC SRTING OPERATIONS
+
+les strings sont des bouts de textes et on peut mettre n'importe quoi entre quotes
+si j'ai besoin de single quotes dans la string je dois utiliser obligatoirement des double quotes
+base 0
+.index ne reconnait que le 1er
+aString[3:7]
+coupe la sring a partir de l'index 3 et fini au 6
+si je met pas le 3 ça prend du début et sans le 7 ça va jusqu'à la fini
+je peut mettre -5 pour dire le 5ème à partir de la fin
+aString[3:7:2]
+saute 1 caractère
+aString[start:stop:step]
+aString[::step] 
+:: veut dire toute la string
+
+___________________________
+
+CONDITIONS
 
