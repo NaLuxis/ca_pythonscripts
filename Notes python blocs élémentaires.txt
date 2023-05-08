@@ -152,3 +152,94 @@ on peut utiliser else dans les boucle
 si la condition de la boucle échoue on passe dans le else
 avec un break dans la boucle le else est passé aussi
 avec un continue le else est quand même éxecuté
+
+___________________________
+
+FUCTIONS
+
+What are Functions?
+sert à créer des blocs de code réutilisable et simple a lire et partager
+
+How do you write functions in Python?
+définition avec : def fuctionName(argument(s)):
+avec return on retourne une valeur
+
+How do you call functions in Python?
+fuctionName(argument(s))
+
+___________________________
+
+CLASSES AND OBJECTS
+
+Classes : le template de création 
+Objects : une entité créer a partir d'une classe qui contient des variables et fonctions
+
+affecter un object à une classe : myobjectx = MyClass()
+
+Accessing Object Variables
+myobjectx.variable
+je peux créer autant d'objets à partir d'une classe que je veux
+
+Accessing Object Functions
+myobjectx.function()
+
+init()
+sert à l'initialisation d'une classe pour assigner des valeurs
+
+___________________________
+
+DICTIONARIES
+c'est similaires aux arrays mais à la place des index c'est des keys values
+
+Iterating over dictionaries
+on peut faire des itérations mais ça ne garde pas l'ordre key value
+
+Removing a value
+del et ce que je veux enlever
+ou dictionarie.pop("un truc")
+
+___________________________
+
+MODULES AND PACKAGES
+dans la programmation un module c'est une pièce de logiciel qui a une fonction bien spécifique
+exemple : je peut avoir un module de logique, un pour afficher à l'écran
+
+Writing modules
+c'est juste des fichier python (.py)
+import le fichier
+si j'utilise une fonction je doit faire monFichier.maFonction
+quand je fait import un fichier .pyc se créer, c'est le fichier compiler
+
+Importing module objects to the current namespace
+from mon fichier import function
+ici j'utilise direct la fonction
+
+Importing all objects from a module
+from monFichier import *
+ici j'utilise les fonction direct mais c'est plus risqué en cas de modifs
+
+Custom import name
+import newName as oldName
+
+Module initialization
+la 1er fois qu'un module est load dans un script python en cours, ça va éxecuter le module 1 fois
+si un autre module import le même module encore une fois il va pas être load du coup le variable vont 
+agir comme "singleton", ca veut dire qu'elles vont être initialisé qu'une fois ???? a clarifier
+
+Extending module load path
+on peut utiliser des variables d'environemments pour spécifier des fichier où regarder pour des modules
+il y a aussi : sys.path.append("/le dossier") à mettre avant l'import
+
+Exploring built-in modules
+https://docs.python.org/3/library/
+2 fonction sympa : 
+- dir pour lister toutes les fonctions qui se trouvent dans le module
+- help pour savoir comment utiliser la fonction
+
+Writing packages
+un package et un dossier qui doit contenir obligatoirement un fichier : __init__.py
+il peut être vide et sers a indiquer que le dossier est un package python
+il peut aussi décider de quels module le package export en tant qu'API avec __all__ = ["un module"]
+
+___________________________
+
