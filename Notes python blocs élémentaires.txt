@@ -104,3 +104,51 @@ ___________________________
 
 CONDITIONS
 
+logique booléenne true or false
+= assigner
+== est égal à
+!= n'est pas égal
+
+Boolean operators
+and 
+or
+
+The "in" operator
+sert à savoir si un objets existe dans un conteneur itérable
+Python utilise l'indentation de 4 espace à la place des {}
+une instruction est évalué correct : 
+- soit si si true est retourné
+- soit si un objets pas considéré comme vide est passé
+
+The 'is' operator
+is ne regarde pas les valeurs comme == mais l'instance elle même
+
+The "not" operator
+not inverse l'expression
+
+___________________________
+
+LOOPS
+
+2 types de boucle : for et while
+
+The "for" loop
+ça itère sur une séquence donnée
+for peut itéré avec les fonctions :
+- range : retourne une nouvelle list de numbers 
+- xrange : retourne un itérateur 
+python 3 utilise range comme agirais xrange
+c'est base 0
+
+"while" loops
+ça répète jusqu'à ce que la condition soit true
+
+"break" and "continue" statements
+break sert à sortir d'une boucle
+continue sert à passer le bloc et retourner à la boucle
+
+Can we use "else" clause for loops?
+on peut utiliser else dans les boucle 
+si la condition de la boucle échoue on passe dans le else
+avec un break dans la boucle le else est passé aussi
+avec un continue le else est quand même éxecuté
