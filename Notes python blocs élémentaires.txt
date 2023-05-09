@@ -243,3 +243,8 @@ il peut aussi décider de quels module le package export en tant qu'API avec __a
 
 ___________________________
 
+NUMPY ARRAYS
+bonne alvernative au lists
+c'est rapide, facile à utiliser, peut faire des calculs sur des arrays entiers
+
+Print out the type of np_height
